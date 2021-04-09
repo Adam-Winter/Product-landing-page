@@ -1,3 +1,22 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    padding: 70px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 #header {
     width: 100%;
     position: fixed;
@@ -26,8 +45,20 @@
     margin: 0px 15px 0px 15px;
 }
 
-#video {
+@media (min-width: 800px) {
+    .nav-link {
+        margin: 0px 35px 0px 35px;
+    }
+}
 
+@media (min-width: 1100px) {
+    .nav-link {
+        margin: 0px 50px 0px 50px;
+    }
+}
+
+#video {
+    margin: 15px 0px 15px 0px;
 }
 
 #form {
