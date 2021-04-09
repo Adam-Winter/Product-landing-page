@@ -29,7 +29,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 15px 15px 15px;
+    padding: 5px 15px 5px 15px;
 }
 
 #links-div {
@@ -38,11 +38,27 @@ main {
 }
 
 #header-img {
-
+    height: 50px;
 }
 
 .nav-link {
     margin: 0px 15px 0px 15px;
+}
+
+#the-concept {
+
+}
+
+#video-p {
+    font-weight: 600;
+}
+
+#our-products {
+
+}
+
+#contact {
+
 }
 
 @media (min-width: 800px) {
