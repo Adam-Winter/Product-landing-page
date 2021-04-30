@@ -26,6 +26,17 @@ input {
     appearance: none;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: grey;
+    margin-top: 10px;
+}
+
+#first-h2 {
+    margin: 15px;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;    
     color: black;
@@ -50,7 +61,7 @@ hr {
 }
 
 main {
-    padding: 100px 10vw 0px 10vw;
+    padding: 80px 10vw 0px 10vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -59,7 +70,7 @@ main {
 
 @media (min-width: 800px) {
     main {
-        padding: 100px 20vw 0px 20vw;
+        padding: 80px 20vw 0px 20vw;
     }
 }
 
@@ -174,9 +185,15 @@ main {
     box-shadow: 0px 0px 8px 0px rgba(134, 134, 134, 0.5);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
     .info-box-1 {
-        height: 42vh;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .info-box-2 {
+        width: 100%;
+        margin-top: 15px;
     }
 }
 
@@ -230,9 +247,9 @@ main {
     color: white;
     background-color: rgb(253, 162, 44);
     outline: none;
-    /*-webkit-appearance: none;
+    -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;*/
+    appearance: none;
 }
 
 #footer {
@@ -259,22 +276,10 @@ main {
     justify-content: space-between;
 }
 
-/*.fa {
-    border-radius: 50%;
-    text-align: center;
-    text-decoration: none;
+.fa {
+    opacity: 0.8;
 }
   
 .fa:hover {
     opacity: 0.7;
 }
-  
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}  
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}*/
