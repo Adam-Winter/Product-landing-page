@@ -20,6 +20,12 @@
     }
 }
 
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;    
     color: black;
@@ -223,7 +229,10 @@ main {
     font-weight: 1000;    
     color: white;
     background-color: rgb(253, 162, 44);
-    outline: none
+    outline: none;
+    /*-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;*/
 }
 
 #footer {
